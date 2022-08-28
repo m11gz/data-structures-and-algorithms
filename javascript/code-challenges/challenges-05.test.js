@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 1 - Review
@@ -6,8 +6,8 @@ CHALLENGE 1 - Review
 Write a function that iterates over an array of people objects
 and creates a new list of each person's full name using the array method 'map'.
 Each object will have the shape {firstName:string, lastName:string}
-E.g. [ { firstName:"Jane", lastName:"Doe" }, { firstName:"James", lastName:"Bond"}]
-should convert to ["Jane Doe", "James Bond"]
+E.g. [ { firstName:'Jane', lastName:'Doe' }, { firstName:'James', lastName:'Bond'}]
+should convert to ['Jane Doe', 'James Bond']
 Note the space in between first and last names.
 You can assume that neither firstName nor lastName will be blank
 ------------------------------------------------------------------------------------------------ */
@@ -55,9 +55,8 @@ Note: You may not use the array's built-in length property.
 
 const countNumberOfElements = (arr) => {
   return arr.reduce((total) => {
-    return total += 1;
+    return (total += 1);
   }, 0);
-};  // Solution code here...
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -125,7 +124,7 @@ const returnNames = (arr) => {
     return newArr;
   }, []);
 };
-  // Solution code here...
+// Solution code here...
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
@@ -192,12 +191,11 @@ const characters = [
 const countNumberOfChildren = (arr) => {
   return arr.reduce((counter, char) => {
     let children = 0;
-    if(char.children) children += char.children.length;
+    if (char.children) children += char.children.length;
     return counter + children;
   }, 0);
 };
-  // Solution code here...
-};
+// Solution code here...
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 8 - Stretch Goal
