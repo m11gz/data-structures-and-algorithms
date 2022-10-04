@@ -76,16 +76,16 @@ Credit to Jacob Knaack, Jordan Yamada, Jeffrey and Alfredo Ortiz for contributin
 
 #### Stack
 
-- ![Stack](/images/stack.png "Stack")
+- ![Stack](../images/stack.png "Stack")
 
 #### Queue
 
-- ![Queue](/images/queue.png "Queue")
+- ![Queue](../images/queue.png "Queue")
 
 #### Push and pop
 
-- ![Push and pop](/images/push-pop.png "Push and pop")
+- ![Push and pop](../images/push-pop.png "Push and pop")
 
 #### Enqueue and dequeue
 
-- ![Enqueue and dequeue](/images/CC10-1.png "Enqueue and dequeue")
+- ![Enqueue and dequeue](../images/CC10-1.png "Enqueue and dequeue")
